@@ -203,6 +203,7 @@ a {
     .main-content table th,
     .main-content table td {
       padding: 0.5rem 1rem;
+      font-size: 0.9rem; /* smaller font inside table */
       border: 1px solid #e9ebec; }
   .main-content dl {
     padding: 0; }
@@ -227,17 +228,19 @@ a {
   border-top: solid 1px #eff0f1; }
   @media screen and (min-width: 64em) {
     .site-footer {
-      font-size: 1rem; } } /* font-size: 1rem; } } */
+      font-size: 1rem; } }
   @media screen and (min-width: 42em) and (max-width: 64em) {
     .site-footer {
-      font-size: 0.7rem; } } /* font-size: 1rem; } } */
+      font-size: 1rem; } }
   @media screen and (max-width: 42em) {
     .site-footer {
       font-size: 0.9rem; } }
 
 .site-footer-owner {
+    font-size: 0.7rem; /**/
   display: block;
   font-weight: bold; }
 
 .site-footer-credits {
+    font-size: 0.7rem; /**/
   color: #819198; }
